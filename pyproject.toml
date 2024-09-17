@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "zuse"
+version = "0.1.0"
+description = ""
+authors = ["Hafid Lin <hafid.lin@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.12.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.poetry.scripts]
+zuse = "zuse.main:app"
+

@@ -1,0 +1,1 @@
+poetry self add -e $(pwd)
